@@ -1111,7 +1111,7 @@ transition: 0.6s ease all;
 }
 
 #input_div_style2{
- 
+ font-size: 2.4vw;
   input{
      width: 20vw;  
      font-size: 2.4vw;  
@@ -2126,6 +2126,7 @@ transition: 0.6s ease all;
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-bottom: 10%;
     .submitBTN{
       cursor: grab;
       background-color: #330544;

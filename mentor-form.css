@@ -1459,6 +1459,9 @@
     width: 30vw;
     height: 6vw;
   }
+  #input_div_style2 {
+    font-size: 2.4vw;
+  }
   #input_div_style2 input {
     width: 20vw;
     font-size: 2.4vw;
@@ -2784,6 +2787,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 10%;
   }
   body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN {
     cursor: -webkit-grab;
