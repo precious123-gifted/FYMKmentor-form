@@ -1101,22 +1101,31 @@ transition: 0.6s ease all;
  display: none;
   }
 
-  #input_div_style{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    margin-bottom: 6%;
-    
-    
+  #input_div_style{ 
+    label{width: fit-content;}
     input{
-      border: none;
-      color: #330544;
-      width: 30vw;
-    outline: none;
-    height: 2vw;  
-    border-radius:0.4vw;            
+      font-size: 2.4vw; 
+      width: 30vw;  
+      height: 6vw;     
   }
 }
+
+#input_div_style2{
+ 
+  input{
+     width: 20vw;  
+     font-size: 2.4vw;  
+}
+}
+
+#long_input_div_style{
+
+  input{
+   font-size: 2.4vw;
+   height: 6vw;        
+}
+}
+
   body{
     margin: 0;
     overflow: hidden;
@@ -1152,13 +1161,13 @@ transition: 0.6s ease all;
         justify-content: space-evenly;
             align-items: center;
     
-    span{font-size: 3vw;color: #330544;margin-top: 4%;margin-bottom: 4%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span{font-size: 5vw;color: #330544;margin-top: 4%;margin-bottom: 4%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
     
     &_personal_details_div{
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         
        
     &_header{
@@ -1174,7 +1183,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1211,11 +1220,11 @@ transition: 0.6s ease all;
      .address_line1_div{width: 100%;}
      .address_line2_div{width: 100%;}
      .cityAndState_div{
-    display: flex;
-        align-items: center;
-        justify-content: space-between;
+        display: flex;
+       flex-direction: column;
         color: #330544;
         width: 100%;
+        
      }
     .postalCodeAndCountry_div{
       display: flex;
@@ -1269,11 +1278,13 @@ transition: 0.6s ease all;
     .form_div_menteeAgeGroup_section{
       color: #330544;
       width: 80%;
+      margin-bottom: 8%;
      .menteeAgeGroup_div{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       height: 16vw;
+      margin-bottom: 15%;
         .menteeAgeGroup{width: 100%;}
       }
     }  
@@ -1285,7 +1296,7 @@ transition: 0.6s ease all;
       .menteeGenderPreference_div{
     .menteeGenderPreference{width: 100%;
       width: 30%;
-      font-size: 1.3vw;
+      font-size: 2.4vw;
         outline: none;
       border: none;
     background-color: white;
@@ -1306,7 +1317,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         
        
     &_header{
@@ -1322,7 +1333,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1358,7 +1369,7 @@ transition: 0.6s ease all;
         border-radius:0.4vw;
         color: #330544;
       width:30%;
-      font-size: 1.4vw;
+      font-size: 2.4vw;
     }  
       
     }
@@ -1380,7 +1391,7 @@ transition: 0.6s ease all;
         background-color: white;
         border-radius:0.4vw; color: #330544;
       width:30%;
-      font-size: 1.4vw;
+      font-size: 2.4vw;
     }  
       
     }
@@ -1415,7 +1426,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         
        
     &_header{
@@ -1431,7 +1442,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1461,7 +1472,7 @@ transition: 0.6s ease all;
         background-color: white;
         border-radius: 0.4vw;
         color: #330544;
-        font-size: 1.4vw;
+        font-size: 2.4vw;
           }
         }
     
@@ -1519,13 +1530,11 @@ transition: 0.6s ease all;
     
     .form_div_cityAndState_section{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 80%;
     color: #330544;
      .cityAndState_div{
-    display: flex;
-        align-items: center;
-        justify-content: space-between;
+    
         color: #330544;
         width: 100%;
      
@@ -1569,7 +1578,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         
        
     &_header{
@@ -1585,7 +1594,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1639,7 +1648,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         
        
     &_header{
@@ -1655,7 +1664,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1770,7 +1779,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         
        
     &_header{
@@ -1786,7 +1795,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1826,7 +1835,7 @@ transition: 0.6s ease all;
         border-radius:0.4vw;
         color: #330544;
       height: 2vw;
-      font-size: 1.4vw;
+      font-size: 2.4vw;
     }  
       
     }
@@ -1872,7 +1881,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1892,7 +1901,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -1953,8 +1962,7 @@ transition: 0.6s ease all;
       width: 100%;
       .cityAndState_div{width: 100%;
         color: #330544;display: flex;
-        align-items: center;
-        justify-content: space-between;}
+     flex-direction: column;}
     }
     .form_div_postalCodeAndCountry_section{
       width: 100%;
@@ -1984,7 +1992,7 @@ transition: 0.6s ease all;
         width: 90%;
         background-color: #33054438;
         border-radius:0.4vw;  margin-bottom: 5%;
-        font-size: 1.4vw;
+        font-size: 4vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2004,7 +2012,7 @@ transition: 0.6s ease all;
         padding-bottom: 2%;
        padding-left: 2%;
        padding-right: 2%;
-         font-size: 2vw;
+         font-size: 5vw;
          color: #ffffff;
          display: flex;
     justify-content: center;
@@ -2065,8 +2073,7 @@ transition: 0.6s ease all;
       width: 100%;
       .cityAndState_div{width: 100%;
         color: #330544;display: flex;
-        align-items: center;
-        justify-content: space-between;}
+        flex-direction: column;}
     }
     .form_div_postalCodeAndCountry_section{
       width: 100%;
@@ -2115,7 +2122,7 @@ transition: 0.6s ease all;
       width: 90%;
       
       border-radius:0.4vw;  margin-bottom: 5%;
-      font-size: 1.4vw;
+      font-size: 4vw;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -2127,7 +2134,7 @@ transition: 0.6s ease all;
       padding-bottom: 2%;
      padding-left: 2%;
      padding-right: 2%;
-       font-size: 2vw;
+       font-size: 5vw;
        color: #ffffff;
        display: flex;
     justify-content: center;
