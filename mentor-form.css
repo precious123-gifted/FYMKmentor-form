@@ -2,21 +2,17 @@
 ::-webkit-scrollbar {
   width: 5px;
   height: 10px;
-  display: none;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px grey;
-          box-shadow: inset 0 0 5px grey;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  height: 20px;
-  background: #333333;
+  background: #330544;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -33,15 +29,36 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 6%;
-  width: 40%;
 }
 
 #input_div_style input {
   border: none;
   color: #330544;
-  width: 100%;
+  width: 15vw;
   outline: none;
   height: 2vw;
+  border-radius: 0.4vw;
+}
+
+#input_div_style2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6%;
+}
+
+#input_div_style2 input {
+  border: none;
+  color: #330544;
+  width: 15vw;
+  outline: none;
   border-radius: 0.4vw;
 }
 
@@ -63,1185 +80,2753 @@
 #long_input_div_style input {
   border: none;
   color: #330544;
-  width: 100%;
   outline: none;
   height: 2vw;
   border-radius: 0.4vw;
 }
 
-body {
-  margin: 0;
-  overflow: hidden;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-body .main {
-  width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: sans-serif;
-}
-
-body .main header {
-  width: 50%;
-  height: 100vh;
-  background-image: url(images/bkg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
-}
-
-body .main .formSection {
-  overflow: scroll;
-  width: 50%;
-  height: 100vh;
-}
-
-body .main .formSection .mentor_profile_form {
-  background-color: white;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form span {
-  font-size: 3vw;
-  color: #330544;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_header .pdHeader {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_name_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_div {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_line1_div {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_line2_div {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .cityAndState_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .postalCodeAndCountry_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_telephone_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_telephone_section .telephone_div .telephone {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_email_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_email_section .email_div .email {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div .dateOfBirth {
-  width: 100%;
-  font-size: 1.3vw;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section .gender_div .gender {
-  width: 100%;
-  font-size: 1.3vw;
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 16vw;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div .menteeAgeGroup {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section {
-  margin-top: 20px;
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section .menteeGenderPreference_div .menteeGenderPreference {
-  width: 100%;
-  font-size: 1.3vw;
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  or: #330544;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_header .sgHeader {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section .form_div_criminal_conviction_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section .form_div_criminal_conviction_div .criminal_conviction {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section .form_div_DBSCertification_div {
-  width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section .form_div_DBSCertification_div .DBSCertification {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 6%;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section .form_div_DBSUpdatedNumber_div {
-  width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section .form_div_DBSUpdatedNumber_div #DBSUpdatedNumber {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 6%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_header .weHeader {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div #input_div_style {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 6%;
-  width: 40%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div #input_div_style input {
-  border: none;
-  color: #330544;
-  width: 100%;
-  outline: none;
-  height: 20px;
-  border-radius: 0.4vw;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div #long_input_div_style {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div #long_input_div_style input {
-  border: none;
-  color: #330544;
-  width: 100%;
-  outline: none;
-  height: 20px;
-  border-radius: 0.4vw;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_name_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_address_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_address_section .address_div {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_address_section .address_line1_div {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_address_section .address_line2_div {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_address_section .cityAndState_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_address_section .postalCodeAndCountry_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #330544;
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_telephone_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_telephone_section .telephone_div .telephone {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_email_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_email_section .email_div .email {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_dateOfBirth_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div .dateOfBirth {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_gender_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_gender_section .gender_div .gender {
-  width: 100%;
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  or: #330544;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_menteeAgeGroup_section {
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 190px;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div .menteeAgeGroup {
-  width: 100%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_menteeGenderPreference_section {
-  margin-top: 20px;
-  color: #330544;
-  width: 80%;
-}
-
-body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_menteeGenderPreference_section .menteeGenderPreference_div .menteeGenderPreference {
-  width: 100%;
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div_header .vHeader {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteering_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteering_section .form_div_volunteering_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteering_section .form_div_volunteering_div .volunteering {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div_header .mHeader {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentoring_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentoring_section .form_div_mentoring_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentoring_section .form_div_mentoring_div .mentoring {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div_header .miHeader {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_mentoring_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_mentoring_section .form_div_mentoring_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_mentoring_section .form_div_mentoring_div .mentoringInterest {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div_header .r1Header {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_mentoring_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_mentoring_section .form_div_mentoring_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_mentoring_section .form_div_mentoring_div .mentoringInterest {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div {
-  width: 90%;
-  background-color: #33054438;
-  border-radius: 0.4vw;
-  margin-bottom: 5%;
-  font-size: 1.4vw;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div_header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8%;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div_header .r2Header {
-  background-color: #330544;
-  border-radius: 0.4vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 2vw;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div_form_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_mentoring_section {
-  width: 80%;
-  color: #330544;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_mentoring_section .form_div_mentoring_div {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_mentoring_section .form_div_mentoring_div .mentoringInterest {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 0.4vw;
-  color: #330544;
-  width: 30%;
-  height: 2vw;
-  font-size: 1.4vw;
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+  body {
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  body .main {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: sans-serif;
+  }
+  body .main header {
+    width: 50%;
+    height: 100vh;
+    background-image: url(images/bkg.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+  }
+  body .main .formSection {
+    overflow: scroll;
+    width: 60%;
+    height: 100vh;
+  }
+  body .main .formSection .mentor_profile_form {
+    background-color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form span {
+    font-size: 3vw;
+    color: #330544;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_header .pdHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_name_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_line1_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_line2_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .cityAndState_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .postalCodeAndCountry_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_telephone_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_email_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div .dateOfBirth {
+    font-size: 1.3vw;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section .gender_div .gender {
+    width: 30%;
+    font-size: 1.3vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 16vw;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div .menteeAgeGroup {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section {
+    margin-top: 20px;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section .menteeGenderPreference_div .menteeGenderPreference {
+    width: 100%;
+    width: 30%;
+    font-size: 1.3vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_header .sgHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section .form_div_criminal_conviction_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section .form_div_criminal_conviction_div .criminal_conviction {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section .form_div_DBSCertification_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section .form_div_DBSCertification_div .DBSCertification {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6%;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section .form_div_DBSUpdatedNumber_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section .form_div_DBSUpdatedNumber_div #DBSUpdatedNumber {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_header .weHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_industrySector_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_industrySector_section .form_div_industrySector_div .industrySector {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_jobTitle_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section .currentEmployersName_div .currentEmployersName {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section .currentEmployersAddress_div .currentEmployersAddress {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section .addressLine1_div .addressLine1 {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section .addressLine2_div .addressLine2 {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section .cityAndState_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section .startDateWithEmployer_div .startDateWithEmployer {
+    font-size: 1.3vw;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_header .vHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section .volunteering_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section .volunteering_div #volunteering {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_header .mHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section .mentorExpectation_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section .mentorExpectation_div #mentorExpectation {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section {
+    width: 80%;
+    color: #330544;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section .mentorAvailability_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section .skills_hobbies_specialInterest_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section .skills_hobbies_specialInterest_div #skills_hobbies_specialInterest {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section .skills_hobbies_specialNeeds_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section .skills_hobbies_specialNeeds_div #skills_hobbies_specialNeeds {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_header .miHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section .preferedAreaOfMentorship_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section .preferedAreaOfMentorship_div .preferedAreaOfMentorship {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section .menteeGoalsPreference_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section .menteeGoalsPreference_div .preferedAreaOfMentorship {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-right: 20%;
+    outline: none;
+    border: none;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_header .r1Header {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section .first_name_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section .first_name_div .referee1FirstName {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeAddress_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine1_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine2_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section .cityAndState_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_postalCodeAndCountry_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_email {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_telephone {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_header .r2Header {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section .first_name_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section .first_name_div .referee1FirstName {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeAddress_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine1_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine2_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section .cityAndState_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_postalCodeAndCountry_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_email_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_telephone_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section .finalNote_div #finalNote {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_GDPRAgreement_section {
+    width: 100%;
+    color: #330544;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_submitBTN_div {
+    width: 90%;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN {
+    cursor: -webkit-grab;
+    cursor: grab;
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: 0.6s ease all;
+    transition: 0.6s ease all;
+  }
+  body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN:hover {
+    background-color: white;
+    color: #330544;
+    border: 1px solid #330544;
+  }
+}
+
+@media only screen and (max-width: 1050px) and (orientation: portrait) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  #input_div_style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 6%;
+  }
+  #input_div_style input {
+    border: none;
+    color: #330544;
+    width: 30vw;
+    outline: none;
+    height: 2vw;
+    border-radius: 0.4vw;
+  }
+  body {
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  body .main {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: sans-serif;
+  }
+  body .main header {
+    width: 0%;
+    visibility: hidden;
+    height: 100vh;
+    background-image: url(images/bkg.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+  }
+  body .main .formSection {
+    overflow: scroll;
+    width: 100%;
+    height: 100vh;
+  }
+  body .main .formSection .mentor_profile_form {
+    background-color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form span {
+    font-size: 3vw;
+    color: #330544;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_header .pdHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_name_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_line1_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_line2_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .cityAndState_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .postalCodeAndCountry_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_telephone_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_email_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div .dateOfBirth {
+    font-size: 1.3vw;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section .gender_div .gender {
+    width: 30%;
+    font-size: 1.3vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 16vw;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div .menteeAgeGroup {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section {
+    margin-top: 20px;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section .menteeGenderPreference_div .menteeGenderPreference {
+    width: 100%;
+    width: 30%;
+    font-size: 1.3vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_header .sgHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section .form_div_criminal_conviction_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section .form_div_criminal_conviction_div .criminal_conviction {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section .form_div_DBSCertification_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section .form_div_DBSCertification_div .DBSCertification {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6%;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section .form_div_DBSUpdatedNumber_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section .form_div_DBSUpdatedNumber_div #DBSUpdatedNumber {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_header .weHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_industrySector_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_industrySector_section .form_div_industrySector_div .industrySector {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_jobTitle_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section .currentEmployersName_div .currentEmployersName {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section .currentEmployersAddress_div .currentEmployersAddress {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section .addressLine1_div .addressLine1 {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section {
+    color: #330544;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section .addressLine2_div .addressLine2 {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section .cityAndState_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #330544;
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section .startDateWithEmployer_div .startDateWithEmployer {
+    font-size: 1.3vw;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_header .vHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section .volunteering_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section .volunteering_div #volunteering {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_header .mHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section .mentorExpectation_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section .mentorExpectation_div #mentorExpectation {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section {
+    width: 80%;
+    color: #330544;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section .mentorAvailability_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section .skills_hobbies_specialInterest_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section .skills_hobbies_specialInterest_div #skills_hobbies_specialInterest {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section .skills_hobbies_specialNeeds_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section .skills_hobbies_specialNeeds_div #skills_hobbies_specialNeeds {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_header .miHeader {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section .preferedAreaOfMentorship_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section .preferedAreaOfMentorship_div .preferedAreaOfMentorship {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section {
+    width: 80%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section .menteeGoalsPreference_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section .menteeGoalsPreference_div .preferedAreaOfMentorship {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-right: 20%;
+    outline: none;
+    border: none;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_header .r1Header {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section .first_name_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section .first_name_div .referee1FirstName {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeAddress_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine1_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine2_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section .cityAndState_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_postalCodeAndCountry_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_email {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_telephone {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div {
+    width: 90%;
+    background-color: #33054438;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_header .r2Header {
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section .first_name_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section .first_name_div .referee1FirstName {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    width: 30%;
+    height: 2vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeAddress_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine1_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine2_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section .cityAndState_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_postalCodeAndCountry_section {
+    width: 100%;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
+    width: 100%;
+    color: #330544;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_email_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_telephone_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section {
+    width: 100%;
+    color: #330544;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section .finalNote_div #finalNote {
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #330544;
+    height: 15vw;
+    resize: none;
+    overflow: auto;
+    padding: 1vw 1vw;
+    font-size: 1.4vw;
+  }
+  body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_GDPRAgreement_section {
+    width: 100%;
+    color: #330544;
+    margin-bottom: 8%;
+  }
+  body .main .formSection .mentor_profile_form_submitBTN_div {
+    width: 90%;
+    border-radius: 0.4vw;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN {
+    cursor: -webkit-grab;
+    cursor: grab;
+    background-color: #330544;
+    border-radius: 0.4vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: 0.6s ease all;
+    transition: 0.6s ease all;
+  }
+  body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN:hover {
+    background-color: white;
+    color: #330544;
+    border: 1px solid #330544;
+  }
 }
 /*# sourceMappingURL=mentor-form.css.map */

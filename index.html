@@ -10,7 +10,8 @@
 <body>
 <div class="main">
   
-    <header><div class="inside"></div></header>
+    <header>
+        <div class="inside"></div></header>
 <div class="formSection">
         <div class="mentor_profile_form">
         <span>MENTOR PROFILE FORM</span>
@@ -70,14 +71,14 @@
             <input type="text" class="email" ></div>  
         </div>
         <div class="form_div_dateOfBirth_section">
-             <div class="dateOfBirth_div" id="input_div_style">
+             <div class="dateOfBirth_div" id="input_div_style2">
             <label for="dateOfBirth">Date Of Birth</label>
             <input type="date" class="dateOfBirth" ></div> 
         </div>
         <div class="form_div_gender_section">
-             <div class="gender_div" id="input_div_style">
+             <div class="gender_div" id="input_div_style2">
                 <label for="gender">Gender</label>
-            <select name="gender" class="gender" id="input_div_style">
+            <select name="gender" class="gender" id="input_div_style2">
 	<option value="none" selected>None</option>
 	<option value="male">Male</option>
 	<option value="female">Female</option>
@@ -171,7 +172,7 @@
         <div class="form_div_jobTitle_section">
  <div class="form_div_jobTitle_div" id='long_input_div_style'>
         <label for="jobTitle" >Job Title / Role</label>
- <input type="text" name="jobTitle" id="jobTitle">
+ <input type="text" name="jobTitle" id="jobTitle" class="jobTitle">
                 </div>
         </div>
         <div class="form_div_currentEmployersName_section">
@@ -220,8 +221,8 @@
 
         </div>
         <div class="form_div_startDateWithEmployer_section">
-             <div class="startDateWithEmployer_div" id="input_div_style">
-            <label for="startDateWithEmployer">Date Of Birth</label>
+             <div class="startDateWithEmployer_div" id="input_div_style2">
+            <label for="startDateWithEmployer">Start Date With Employer</label>
             <input type="date" class="startDateWithEmployer" ></div> 
         </div>
         </div>
@@ -230,12 +231,12 @@
 
 <div class="mentor_profile_form_volunteering_div">
     <div class="mentor_profile_form_volunteering_div_header"><span class="vHeader">VOLUNTEERING</span> </div>
-    <div class="mentor_profile_form_volunteering_form_div">
+    <div class="mentor_profile_form_volunteering_div_form_div">
 <div class="form_div_volunteeringExperience_section">
 
  <div class="volunteering_div" id="long_input_div_style">
             <label for="volunteering">Volunteer Experience</label>
-            <textarea name="volunteering" id="volunteering" cols="30" rows="10"></textarea>
+            <textarea name="volunteering" id="volunteering" ></textarea>
 
 </div>
         
@@ -245,18 +246,89 @@
 <div class="mentor_profile_form_mentoring_div">
     <div class="mentor_profile_form_mentoring_div_header"><span class="mHeader">MENTORING</span> </div>
     <div class="mentor_profile_form_mentoring_div_form_div">
-<div class="form_div_mentorExpectation_section"></div>
-<div class="form_div_mentorAvailability_section"></div>  
-<div class="form_div_skills,hobbies,specialInterest_section"></div>  
-<div class="form_div_specialNeeds_section"></div> 
+<div class="form_div_mentorExpectation_section">
+     <div class="mentorExpectation_div" id="long_input_div_style">
+            <label for="mentorExpectation">Please tell us what you hope to gain from your experience with us as a mentor.</label>
+            <textarea name="mentorExpectation" id="mentorExpectation" ></textarea> 
+<label for="" style="color:#330544af;margin-bottom: 8%;">Please tell us what you hope to gain from your experience with us as a mentor. (100 words)
+0 of 100 max words.</label>
+</div>
+</div>
+<div class="form_div_mentorAvailability_section">
+
+            <label for="mentorAvailability_div">How often will you be available for mentor sessions?</label>
+            <div class="mentorAvailability_div" name="mentorAvailability_div">
+<label class="availability">
+  <input type="radio"  class="1-hours">
+ 1 hour a week
+</label>
+<label class="availability">
+  <input type="radio"  class="2-hours">
+  2 hours a week
+</label>
+<label class="availability">
+  <input type="radio" class="4-hours">
+ 4 hours a month
+</label>
+ 
+</div>
+
+</div>  
+<div class="form_div_skills_hobbies_specialInterest_section">
+  <div class="skills_hobbies_specialInterest_div" id="long_input_div_style">
+            <label for="skills_hobbies_specialInterest">Skills, Hobbies and Special Interest</label>
+            <textarea name="skills_hobbies_specialInterest" id="skills_hobbies_specialInterest" ></textarea> 
+<label for="" style="color:#330544af;margin-bottom: 8%;">What hobbies, skills, special interests or qualities do you have that may be relevant to the volunteer role you are applying for? (100 words)
+0 of 100 max words.</label>
+</div>
+
+
+</div>  
+<div class="form_div_specialNeeds_section">
+    <div class="skills_hobbies_specialNeeds_div" id="long_input_div_style">
+        <label for="skills_hobbies_specialNeeds">Do you have any special needs you would like to share with us?</label>
+        <textarea name="skills_hobbies_specialNeeds" id="skills_hobbies_specialNeeds" ></textarea> 
+<label for="" style="color:#330544af;margin-bottom: 8%;">Please state any special needs or you have a disability that you would like us to know about. (100 words)
+    0 of 100 max words.</label>
+</div>
+
+</div> 
     </div>
 </div>
 
 <div class="mentor_profile_form_mentoringInterest_div">
     <div class="mentor_profile_form_mentoringInterest_div_header"><span class="miHeader">MENTORING INTEREST</span> </div>
-    <div class="mentor_profile_form_mentoringInterest_form_div">
-<div class="form_div_preferedAreaOfMentorship_section"></div>
-<div class="form_div_menteeGoalsPreference_section"></div>  
+    <div class="mentor_profile_form_mentoringInterest_div_form_div">
+<div class="form_div_preferedAreaOfMentorship_section">
+    <div class="preferedAreaOfMentorship_div">
+        <label for="preferedAreaOfMentorship">Which area would you prefer to mentor</label>
+        <div class="preferedAreaOfMentorship" name="preferedAreaOfMentorship">
+            <input type="checkbox" name="employment" class="employment"><label for="employment">Employment</label> 
+            <input type="checkbox" name="entrepreneurship" class="entrepreneurship"><label for="entrepreneurship">Entrepreneurship</label>
+            <input type="checkbox" name="education" class="education"><label for="education">Education</label>
+        </div>
+    </div>
+</div>
+<div class="form_div_menteeGoalsPreference_section">
+    <div class="menteeGoalsPreference_div">
+        <label for="menteeGoalsPreference" style="margin-bottom:4% ;">Which Mentee goals could you help with</label>
+        <div class="menteeGoalsPreference" name="menteeGoalsPreference">
+            <div class="mp"><input type="checkbox" name="university_applications" class="university_applications"><label for="university_applications">University Applications</label></div> 
+            <div class="mp"><input type="checkbox" name="career_Options" class="career_Options"><label for="career_Options">Career Options</label></div>
+            <div class="mp"><input type="checkbox" name="CV_writing" class="CV_writing"><label for="CV_writing">CV Writing</label></div>
+            <div class="mp"><input type="checkbox" name="developing_a_professional_network" class="developing_a_professional_network"><label for="developing_a_professional_network">Developing a professional network</label></div>
+            <div class="mp"><input type="checkbox" name="getting_involved_in_community_work" class="getting_involved_in_community_work"><label for="getting_involved_in_community_work">Getting involved in community work</label></div>
+            <div class="mp"><input type="checkbox" name="changing_career" class="changing_career"><label for="changing_career">Changing Career</label></div>
+            <div class="mp"><input type="checkbox" name="building_confidence" class="building_confidence"><label for="building_confidence">building_confidence</label></div>
+            <div class="mp"><input type="checkbox" name="college_options" class="college_options"><label for="college_options">College Options</label></div>
+            <div class="mp"><input type="checkbox" name="career_without_university" class="career_without_university"><label for="career_without_university">Career without University</label></div>
+            <div class="mp"><input type="checkbox" name="volunteering" class="volunteering"><label for="">Volunteering</label></div>
+            <div class="mp"><input type="checkbox" name="interview_skills" class="interview_skills"><label for="interview_skills">Interview Skills</label></div>
+            <div class="mp"><input type="checkbox" name="developing_resilience" class="developing_resilience"><label for="developing_resilience">Developing Resilience</label></div>
+            <div class="mp"><input type="checkbox" name="finding_jobs_locally" class="finding_jobs_locally"><label for="finding_jobs_locally">Finding Jobs locally</label></div>
+        </div>
+    </div>
+</div>  
 
     </div>
 </div>
@@ -264,14 +336,77 @@
 <div class="mentor_profile_form_reference1_div">
     <div class="mentor_profile_form_reference1_div_header"><span class="r1Header">REFERENCE 1</span> </div>
     <div class="mentor_profile_form_reference1_div_form_div">
- <div class="form_div_refereeName_section"></div>
-        <div class="form_div_refereeAddress_section"></div>
-        <div class="form_div_addressLine1_section"></div>
-        <div class="form_div_addressLine2_section"></div>
-        <div class="form_div_cityAndState_section"></div>
-        <div class="form_div_postalCodeAndCountry_section"></div>
-        <div class="form_div_email"></div>
-        <div class="form_div_telephone"></div>
+        <label for="" style="color:#330544af;margin-bottom: 8%;">Please supply us with the name and contact details of your referee (non-relatives).
+         They will not be contacted without your consent.</label>
+ <div class="form_div_refereeName_section">
+         <div class="first_name_div" id="input_div_style"> 
+            <label for="firstName">First Name</label>
+            <input type="text" class="referee1FirstName"> 
+         </div>  
+         <div class="last_name_div" id="input_div_style">
+            <label for="lastName">Last Name</label>
+         <input type="text" class="lastName"></div>  
+           
+ </div>
+        <div class="form_div_refereeAddress_section">
+<div class="address_div" id="long_input_div_style">   
+            <label for="address">Address</label>
+            <input type="text" class="address"> 
+            </div>
+
+        </div>
+        <div class="form_div_addressLine1_section">
+            <div class="addressLine1_div" id="long_input_div_style">   
+                <label for="address">Address</label>
+                <input type="text" class="address"> 
+                </div>
+            
+        </div>
+        <div class="form_div_addressLine2_section">
+            <div class="address_line2_div" id="long_input_div_style">   
+                <label for="address_line2">Address Line2</label>
+                <input type="text" class="address_line2"> 
+                </div>
+        </div>
+        <div class="form_div_cityAndState_section">
+            <div class="cityAndState_div">
+                  <div class="city_div" id="input_div_style"> 
+            <label for="city">City</label>
+            <input type="text" class="city"> 
+         </div>  
+         <div class="stateProvinceRegion_div" id="input_div_style">
+            <label for="stateProvinceRegion">State / Province / Region</label>
+            <input type="text" class="stateProvinceRegion"></div>  
+            </div>
+        </div>
+        <div class="form_div_postalCodeAndCountry_section">
+<div class="postalCodeAndCountry_div">
+                  <div class="postalCode_div" id="input_div_style"> 
+            <label for="postalCode">Postal Code</label>
+            <input type="text" class="postalCode"> 
+         </div>  
+         <div class="country_div" id="input_div_style">
+            <label for="country">Country</label>
+            <input type="text" class="country"></div>  
+            </div>
+
+        </div>
+        <div class="form_div_email">
+<div class="form_div_email_section">
+           <div class="email_div" id="long_input_div_style">
+            <label for="email">Email</label>
+            <input type="text" class="email"></div>  
+        </div>
+            
+        </div>
+        <div class="form_div_telephone">
+
+            <div class="form_div_telephone_section">
+            <div class="telephone_div" id="long_input_div_style">
+            <label for="telephone">Telephone</label>
+            <input type="text" class="telephone"></div> 
+        </div>
+        </div>
 
     </div>
 </div>
@@ -279,20 +414,86 @@
 <div class="mentor_profile_form_reference2_div">
     <div class="mentor_profile_form_reference2_div_header"><span class="r2Header">REFERENCE 2</span> </div>
     <div class="mentor_profile_form_reference2_div_form_div">
- <div class="form_div_refereeName_section"></div>
-        <div class="form_div_refereeAddress_section"></div>
-        <div class="form_div_addressLine1_section"></div>
-        <div class="form_div_addressLine2_section"></div>
-        <div class="form_div_cityAndState_section"></div>
-        <div class="form_div_postalCodeAndCountry_section"></div>
-        <div class="form_div_email_section"></div>
-        <div class="form_div_telephone_section"></div>
-        <div class="form_div_finalNote_section"></div>
-        <div class="form_div_GDPRAgreement_section"></div>
+ <div class="form_div_refereeName_section">
+        <div class="first_name_div" id="input_div_style"> 
+           <label for="firstName">First Name</label>
+           <input type="text" class="referee1FirstName"> 
+        </div>  
+        <div class="last_name_div" id="input_div_style">
+           <label for="lastName">Last Name</label>
+        <input type="text" class="lastName"></div>  
+          
+ </div>
+        <div class="form_div_refereeAddress_section">
+            <div class="address_div" id="long_input_div_style">   
+                            <label for="address">Address</label>
+                            <input type="text" class="address"> 
+                            </div>            
+        </div>
+        <div class="form_div_addressLine1_section">
+                <div class="addressLine1_div" id="long_input_div_style">   
+                    <label for="address">Address</label>
+                    <input type="text" class="address"> 
+                    </div>
+        </div>
+        <div class="form_div_addressLine2_section">
+                <div class="address_line2_div" id="long_input_div_style">   
+                    <label for="address_line2">Address Line2</label>
+                    <input type="text" class="address_line2"> 
+                    </div>
+        </div>
+        <div class="form_div_cityAndState_section">
+                <div class="cityAndState_div">
+                      <div class="city_div" id="input_div_style"> 
+                <label for="city">City</label>
+                <input type="text" class="city"> 
+             </div>  
+             <div class="stateProvinceRegion_div" id="input_div_style">
+                <label for="stateProvinceRegion">State / Province / Region</label>
+                <input type="text" class="stateProvinceRegion"></div>  
+                </div>
+        </div>
+        <div class="form_div_postalCodeAndCountry_section">
+                <div class="postalCodeAndCountry_div">
+                                  <div class="postalCode_div" id="input_div_style"> 
+                            <label for="postalCode">Postal Code</label>
+                            <input type="text" class="postalCode"> 
+                         </div>  
+                         <div class="country_div" id="input_div_style">
+                            <label for="country">Country</label>
+                            <input type="text" class="country"></div>  
+                            </div>
+        </div>
+        <div class="form_div_email_section">
+                           <div class="email_div" id="long_input_div_style">
+                            <label for="email">Email</label>
+                            <input type="text" class="email"></div>  
+        </div>
+        <div class="form_div_telephone_section">
+                <div class="telephone_div" id="long_input_div_style">
+                <label for="telephone">Telephone</label>
+                <input type="text" class="telephone"></div> 
+            
+        </div>
+        <div class="form_div_finalNote_section">
+            <div class="finalNote_div" id="long_input_div_style">
+                <label for="finalNote_div">Final Note</label>
+                <textarea name="finalNote_div" id="finalNote"></textarea> 
+        
+        </div>
+        </div>
+        <div class="form_div_GDPRAgreement_section">
+
+            <div class="GDPR"><input type="checkbox" name="GDPRAgreement" class="GDPRAgreement">
+                <label for="GDPRAgreement">I consent to having Fresh Youth MK and Fresh Inspiration store my submitted information so I can volunteer as a mentor 
+                    with Fresh Youth MK and receive information on Fresh Youth MK and Fresh Inspiration.. </label></div>
+        </div>
     </div>
 </div>
 
-<div class="mentor_profile_form_submitBTN_div"></div>
+<div class="mentor_profile_form_submitBTN_div">
+    <span class="submitBTN">Submit</span>
+</div>
 
 </div>
 
