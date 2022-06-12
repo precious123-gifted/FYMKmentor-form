@@ -1501,7 +1501,7 @@
   }
   body .main .formSection .mentor_profile_form {
     background-color: white;
-    margin-top: 10%;
+    margin-top: 10vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
