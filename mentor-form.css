@@ -1468,7 +1468,6 @@
     height: 6vw;
   }
   body {
-    margin: 0;
     overflow: hidden;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -2451,7 +2450,7 @@
     border-radius: 0.4vw;
     color: #330544;
     height: 2vw;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
   }
   body .main .formSection .mentor_profile_form_reference1_div {
     width: 90%;
