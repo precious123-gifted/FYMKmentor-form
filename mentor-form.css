@@ -1455,19 +1455,16 @@
     width: fit-content;
   }
   #input_div_style input {
-    font-size: 2.4vw;
+    font-size: 3.5vw;
     width: 30vw;
     height: 6vw;
-  }
-  #input_div_style2 {
-    font-size: 2.4vw;
   }
   #input_div_style2 input {
     width: 20vw;
     font-size: 2.4vw;
   }
   #long_input_div_style input {
-    font-size: 2.4vw;
+    font-size: 3.5vw;
     height: 6vw;
   }
   body {
@@ -1669,7 +1666,7 @@
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section .gender_div .gender {
     width: 30%;
-    font-size: 1.3vw;
+    font-size: 2.4vw;
     outline: none;
     border: none;
     background-color: white;
@@ -2129,7 +2126,7 @@
     resize: none;
     overflow: auto;
     padding: 1vw 1vw;
-    font-size: 1.4vw;
+    font-size: 3.5vw;
   }
   body .main .formSection .mentor_profile_form_mentoring_div {
     width: 90%;
@@ -2220,7 +2217,7 @@
     resize: none;
     overflow: auto;
     padding: 1vw 1vw;
-    font-size: 1.4vw;
+    font-size: 3.5vw;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section {
     width: 80%;
@@ -2273,7 +2270,7 @@
     resize: none;
     overflow: auto;
     padding: 1vw 1vw;
-    font-size: 1.4vw;
+    font-size: 3.5vw;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section {
     width: 80%;
@@ -2309,7 +2306,7 @@
     resize: none;
     overflow: auto;
     padding: 1vw 1vw;
-    font-size: 1.4vw;
+    font-size: 3.5vw;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div {
     width: 90%;
@@ -2766,7 +2763,7 @@
     resize: none;
     overflow: auto;
     padding: 1vw 1vw;
-    font-size: 1.4vw;
+    font-size: 3.5vw;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_GDPRAgreement_section {
     width: 100%;
