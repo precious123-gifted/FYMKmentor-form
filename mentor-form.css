@@ -12,7 +12,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #330544;
+  background: #033347;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -33,7 +33,7 @@
 
 #input_div_style input {
   border: none;
-  color: #330544;
+  color: #033347;
   width: 15vw;
   outline: none;
   height: 2vw;
@@ -56,7 +56,7 @@
 
 #input_div_style2 input {
   border: none;
-  color: #330544;
+  color: #033347;
   width: 15vw;
   outline: none;
   border-radius: 0.4vw;
@@ -79,7 +79,7 @@
 
 #long_input_div_style input {
   border: none;
-  color: #330544;
+  color: #033347;
   outline: none;
   height: 2vw;
   border-radius: 0.4vw;
@@ -105,7 +105,7 @@
   body .main header {
     width: 50%;
     height: 100vh;
-    background-image: url(images/bkg.jpg);
+    background-image: url(images/bkg.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,14 +136,14 @@
   }
   body .main .formSection .mentor_profile_form span {
     font-size: 3vw;
-    color: #330544;
+    color: #033347;
     margin-top: 4%;
     margin-bottom: 4%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   body .main .formSection .mentor_profile_form_personal_details_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -162,7 +162,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_header .pdHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -206,7 +206,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section {
@@ -223,7 +223,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_div {
@@ -245,7 +245,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .postalCodeAndCountry_div {
@@ -258,19 +258,19 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_telephone_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_email_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div {
@@ -280,7 +280,7 @@
     font-size: 1.3vw;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section .gender_div .gender {
@@ -290,10 +290,10 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section .menteeAgeGroup_div {
@@ -314,7 +314,7 @@
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section {
     margin-top: 20px;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section .menteeGenderPreference_div .menteeGenderPreference {
@@ -325,11 +325,11 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -348,7 +348,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_header .sgHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -384,7 +384,7 @@
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -411,13 +411,13 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -441,13 +441,13 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -475,11 +475,11 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -498,7 +498,7 @@
     margin-bottom: 6%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_header .weHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -542,7 +542,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_industrySector_section .form_div_industrySector_div .industrySector {
@@ -550,7 +550,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_jobTitle_section {
@@ -567,32 +567,32 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section .currentEmployersName_div .currentEmployersName {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section .currentEmployersAddress_div .currentEmployersAddress {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section .addressLine1_div .addressLine1 {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section .addressLine2_div .addressLine2 {
@@ -601,7 +601,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section {
     display: -webkit-box;
@@ -611,7 +611,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section .cityAndState_div {
     display: -webkit-box;
@@ -623,7 +623,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section {
@@ -634,7 +634,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
     display: -webkit-box;
@@ -646,7 +646,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section {
@@ -657,14 +657,14 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section .startDateWithEmployer_div .startDateWithEmployer {
     font-size: 1.3vw;
   }
   body .main .formSection .mentor_profile_form_volunteering_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -683,7 +683,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_volunteering_div_header .vHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -719,7 +719,7 @@
   }
   body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -746,7 +746,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -755,7 +755,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -774,7 +774,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_header .mHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -810,7 +810,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -837,7 +837,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -846,7 +846,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section .mentorAvailability_div {
@@ -863,7 +863,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -890,7 +890,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -899,7 +899,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -935,7 +935,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -954,7 +954,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_header .miHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -990,7 +990,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1027,13 +1027,13 @@
     outline: none;
     border: none;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1074,13 +1074,13 @@
     outline: none;
     border: none;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_reference1_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -1109,7 +1109,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_reference1_div_header .r1Header {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1145,7 +1145,7 @@
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1171,29 +1171,29 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeAddress_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine1_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine2_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section .cityAndState_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1209,7 +1209,7 @@
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1222,15 +1222,15 @@
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_email {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_telephone {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 1.4vw;
@@ -1259,7 +1259,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_reference2_div_header .r2Header {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1295,7 +1295,7 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1321,29 +1321,29 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeAddress_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine1_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine2_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section .cityAndState_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1359,7 +1359,7 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1372,22 +1372,22 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_email_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_telephone_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section .finalNote_div #finalNote {
     outline: none;
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -1396,7 +1396,7 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_GDPRAgreement_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_submitBTN_div {
@@ -1418,7 +1418,7 @@
   body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN {
     cursor: -webkit-grab;
     cursor: grab;
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1440,8 +1440,8 @@
   }
   body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN:hover {
     background-color: white;
-    color: #330544;
-    border: 1px solid #330544;
+    color: #033347;
+    border: 1px solid #033347;
   }
 }
 
@@ -1525,7 +1525,7 @@
   }
   body .main .formSection .mentor_profile_form_personal_details_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -1544,7 +1544,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_header .pdHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1588,7 +1588,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section {
@@ -1605,7 +1605,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .address_div {
@@ -1625,7 +1625,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_address_section .postalCodeAndCountry_div {
@@ -1638,19 +1638,19 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_telephone_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_email_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_dateOfBirth_section .dateOfBirth_div {
@@ -1660,7 +1660,7 @@
     font-size: 1.3vw;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_gender_section .gender_div .gender {
@@ -1670,10 +1670,10 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
     margin-bottom: 8%;
   }
@@ -1696,7 +1696,7 @@
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section {
     margin-top: 20px;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeGenderPreference_section .menteeGenderPreference_div .menteeGenderPreference {
@@ -1707,11 +1707,11 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -1730,7 +1730,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_header .sgHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1766,7 +1766,7 @@
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_criminal_conviction_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1793,13 +1793,13 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     font-size: 2.4vw;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSCertification_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1823,13 +1823,13 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     font-size: 2.4vw;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_form_div .form_div_DBSUpdatedNumber_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1857,11 +1857,11 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -1880,7 +1880,7 @@
     margin-bottom: 6%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_header .weHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -1924,7 +1924,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_industrySector_section .form_div_industrySector_div .industrySector {
@@ -1932,7 +1932,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     font-size: 2.4vw;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_jobTitle_section {
@@ -1949,32 +1949,32 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersName_section .currentEmployersName_div .currentEmployersName {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_currentEmployersAddress_section .currentEmployersAddress_div .currentEmployersAddress {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine1_section .addressLine1_div .addressLine1 {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section {
-    color: #330544;
+    color: #033347;
     width: 80%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_addressLine2_section .addressLine2_div .addressLine2 {
@@ -1983,7 +1983,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section {
     display: -webkit-box;
@@ -1994,10 +1994,10 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 80%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_cityAndState_section .cityAndState_div {
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section {
@@ -2008,7 +2008,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
     display: -webkit-box;
@@ -2020,7 +2020,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #330544;
+    color: #033347;
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section {
@@ -2031,14 +2031,14 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_form_div .form_div_startDateWithEmployer_section .startDateWithEmployer_div .startDateWithEmployer {
     font-size: 1.3vw;
   }
   body .main .formSection .mentor_profile_form_volunteering_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -2057,7 +2057,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_volunteering_div_header .vHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -2093,7 +2093,7 @@
   }
   body .main .formSection .mentor_profile_form_volunteering_div_form_div .form_div_volunteeringExperience_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2120,7 +2120,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -2129,7 +2129,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -2148,7 +2148,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_header .mHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -2184,7 +2184,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorExpectation_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2211,7 +2211,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -2220,7 +2220,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_mentorAvailability_section .mentorAvailability_div {
@@ -2237,7 +2237,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_skills_hobbies_specialInterest_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2264,7 +2264,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -2273,7 +2273,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoring_div_form_div .form_div_specialNeeds_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2300,7 +2300,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -2309,7 +2309,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -2328,7 +2328,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_header .miHeader {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -2364,7 +2364,7 @@
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_preferedAreaOfMentorship_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2401,13 +2401,13 @@
     outline: none;
     border: none;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 2vw;
     font-size: 3.4vw;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_form_div .form_div_menteeGoalsPreference_section {
     width: 80%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2448,13 +2448,13 @@
     outline: none;
     border: none;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_reference1_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -2483,7 +2483,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_reference1_div_header .r1Header {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -2519,7 +2519,7 @@
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeName_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2545,29 +2545,29 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_refereeAddress_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine1_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_addressLine2_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_cityAndState_section .cityAndState_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2581,7 +2581,7 @@
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2594,15 +2594,15 @@
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_email {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference1_div_form_div .form_div_telephone {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div {
     width: 90%;
-    background-color: #33054438;
+    background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
     font-size: 4vw;
@@ -2631,7 +2631,7 @@
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_reference2_div_header .r2Header {
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -2667,7 +2667,7 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeName_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2693,29 +2693,29 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     width: 30%;
     height: 2vw;
     font-size: 1.4vw;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_refereeAddress_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine1_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_addressLine2_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section {
     width: 100%;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_cityAndState_section .cityAndState_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2729,7 +2729,7 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_postalCodeAndCountry_section .postalCodeAndCountry_div {
     width: 100%;
-    color: #330544;
+    color: #033347;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2742,22 +2742,22 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_email_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_telephone_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_finalNote_section .finalNote_div #finalNote {
     outline: none;
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -2766,7 +2766,7 @@
   }
   body .main .formSection .mentor_profile_form_reference2_div_form_div .form_div_GDPRAgreement_section {
     width: 100%;
-    color: #330544;
+    color: #033347;
     margin-bottom: 8%;
   }
   body .main .formSection .mentor_profile_form_submitBTN_div {
@@ -2789,7 +2789,7 @@
   body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN {
     cursor: -webkit-grab;
     cursor: grab;
-    background-color: #330544;
+    background-color: #033347;
     border-radius: 0.4vw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -2811,8 +2811,8 @@
   }
   body .main .formSection .mentor_profile_form_submitBTN_div .submitBTN:hover {
     background-color: white;
-    color: #330544;
-    border: 1px solid #330544;
+    color: #033347;
+    border: 1px solid #033347;
   }
 }
 /*# sourceMappingURL=mentor-form.css.map */

@@ -5,18 +5,23 @@ height: 10px;
 
 
 }
+//variables
+$base-color :#033347;
+$complimentary-color1 :#21A3BD;
+$complimentary-color2 :#8dcde675;
+//variables
 
 
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track { 
    
-  border-bottom-right-radius: 10px;
+   border-bottom-right-radius: 10px;
    border-top-left-radius: 10px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #330544; 
+  background: $base-color; 
   border-bottom-right-radius: 10px;
    border-top-left-radius: 10px;
 }
@@ -30,7 +35,7 @@ height: 10px;
       
       input{
         border: none;
-        color: #330544;
+        color: $base-color;
         width: 15vw;
       outline: none;
       height: 2vw;  
@@ -46,7 +51,7 @@ height: 10px;
   
   input{
     border: none;
-    color: #330544;
+    color: $base-color;
     width: 15vw;
   outline: none; 
   border-radius:0.4vw;            
@@ -59,7 +64,7 @@ height: 10px;
       width: 100%;
       input{
         border: none;
-        color: #330544;
+        color: $base-color;
       outline: none;
       height: 2vw;  
       border-radius:0.4vw;            
@@ -82,7 +87,7 @@ user-select: none;
     header{
         width: 50%;
         height: 100vh;
-        background-image: url(images/bkg.jpg);
+        background-image: url(images/bkg.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -101,11 +106,11 @@ user-select: none;
     justify-content: space-evenly;
         align-items: center;
 
-span{font-size: 3vw;color: #330544;margin-top: 4%;margin-bottom: 4%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+span{font-size: 3vw;color: $base-color;margin-top: 4%;margin-bottom: 4%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 &_personal_details_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     
@@ -117,7 +122,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .pdHeader{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;   
     padding-top: 2%;
     padding-bottom: 2%;
@@ -144,7 +149,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 80%;
     
   }
@@ -154,7 +159,7 @@ align-items: center;
       flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 80%;
  .address_div{width: 100%;}
  .address_line1_div{width: 100%;}
@@ -163,31 +168,31 @@ align-items: center;
 display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 100%;
  }
 .postalCodeAndCountry_div{
   display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 100%;
 }
 
 
 }
 .form_div_telephone_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
  
 }
 
 .form_div_email_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
 }  
 .form_div_dateOfBirth_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
  .dateOfBirth_div{
   width: 100%;
@@ -196,7 +201,7 @@ display: flex;
 }  
 
 .form_div_gender_section{
-  color: #330544;
+  color: $base-color;
    width: 80%;
   .gender_div{
    
@@ -206,7 +211,7 @@ display: flex;
     outline: none;
   border: none;
 background-color: white;
-border-radius:0.4vw;color: #330544;
+border-radius:0.4vw;color: $base-color;
 
 
 }
@@ -214,7 +219,7 @@ border-radius:0.4vw;color: #330544;
 }  
 
 .form_div_menteeAgeGroup_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
  .menteeAgeGroup_div{
   display: flex;
@@ -227,7 +232,7 @@ border-radius:0.4vw;color: #330544;
 
 .form_div_menteeGenderPreference_section{
   margin-top: 20px;
-  color: #330544;
+  color: $base-color;
   width: 80%;
   .menteeGenderPreference_div{
 .menteeGenderPreference{width: 100%;
@@ -237,7 +242,7 @@ border-radius:0.4vw;color: #330544;
   border: none;
 background-color: white;
 border-radius:0.4vw;
-color: #330544;
+color: $base-color;
 
 }
   }
@@ -251,7 +256,7 @@ color: #330544;
 
 &_safe_guarding_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     
@@ -263,7 +268,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .sgHeader{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -287,7 +292,7 @@ align-items: center;
 
   .form_div_criminal_conviction_section{
   width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -303,7 +308,7 @@ align-items: center;
     border: none;
     background-color: white;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
   width:30%;
   font-size: 1.4vw;
 }  
@@ -314,7 +319,7 @@ align-items: center;
 .form_div_DBSCertification_section{
 
   width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
 .form_div_DBSCertification_div{
@@ -325,7 +330,7 @@ align-items: center;
   outline: none;
     border: none;
     background-color: white;
-    border-radius:0.4vw; color: #330544;
+    border-radius:0.4vw; color: $base-color;
   width:30%;
   font-size: 1.4vw;
 }  
@@ -334,7 +339,7 @@ align-items: center;
 }
 .form_div_DBSUpdatedNumber_section{
  width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -347,7 +352,7 @@ align-items: center;
   outline: none;
     border: none;
     background-color: white;
-    border-radius:0.4vw; color: #330544;
+    border-radius:0.4vw; color: $base-color;
 }  
   
 }
@@ -359,7 +364,7 @@ align-items: center;
 
 &_work_experience_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     
@@ -371,7 +376,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 6%;
 .weHeader{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -398,7 +403,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 80%;
     .form_div_industrySector_div{
       .industrySector{
@@ -406,7 +411,7 @@ align-items: center;
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: $base-color;
     font-size: 1.4vw;
       }
     }
@@ -418,13 +423,13 @@ align-items: center;
       flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 80%;
 
 
 }
 .form_div_currentEmployersName_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
   .currentEmployersName_div{
     .currentEmployersName{width: 100%;}
@@ -432,7 +437,7 @@ align-items: center;
 }
 
 .form_div_currentEmployersAddress_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
   .currentEmployersAddress_div{
     .currentEmployersAddress{width: 100%;}
@@ -440,7 +445,7 @@ align-items: center;
 }  
 
 .form_div_addressLine1_section{
-  color: #330544;
+  color:$base-color;
   width: 80%;
  .addressLine1_div{
     .addressLine1{width: 100%;}
@@ -448,7 +453,7 @@ align-items: center;
 }  
 
 .form_div_addressLine2_section{
-  color: #330544;
+  color: $base-color;
   width: 80%;
   .addressLine2_div{
     .addressLine2{width: 100%;
@@ -456,7 +461,7 @@ align-items: center;
   border: none;
 background-color: white;
 border-radius:0.4vw;
-color: #330544;
+color: $base-color;
 
 
 }
@@ -467,12 +472,12 @@ color: #330544;
 display: flex;
 justify-content: space-between;
 width: 80%;
-color: #330544;
+color: $base-color;
  .cityAndState_div{
 display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 100%;
  
  }
@@ -481,12 +486,12 @@ display: flex;
   display: flex;
 justify-content: space-between;
 width: 80%;
-color: #330544;
+color:$base-color;
   .postalCodeAndCountry_div{
   display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #330544;
+    color: $base-color;
     width: 100%;
 
 }
@@ -496,7 +501,7 @@ color: #330544;
     display: flex;
 justify-content: space-between;
 width: 80%;
-color: #330544;
+color: $base-color;
   .startDateWithEmployer_div{
     .startDateWithEmployer{
 font-size: 1.3vw;
@@ -513,7 +518,7 @@ font-size: 1.3vw;
 
 &_volunteering_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     
@@ -525,7 +530,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .vHeader{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -549,7 +554,7 @@ align-items: center;
 
   .form_div_volunteeringExperience_section{
   width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -565,7 +570,7 @@ align-items: center;
     border: none;
     background-color: white;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
     height: 15vw;
   resize: none;
   overflow: auto;
@@ -583,7 +588,7 @@ align-items: center;
 }
 &_mentoring_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     
@@ -595,7 +600,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .mHeader{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -619,7 +624,7 @@ align-items: center;
 
   .form_div_mentorExpectation_section{
   width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -635,7 +640,7 @@ align-items: center;
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: $base-color;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -647,7 +652,7 @@ align-items: center;
   }
   .form_div_mentorAvailability_section{
     width: 80%;
-    color: #330544;
+    color: $base-color;
     margin-bottom: 8%;
 .mentorAvailability_div{
   display: flex;
@@ -658,7 +663,7 @@ align-items: center;
 }
   .form_div_skills_hobbies_specialInterest_section{
 width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -671,7 +676,7 @@ width: 80%;
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: $base-color;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -683,7 +688,7 @@ width: 80%;
   }
   .form_div_specialNeeds_section{
     width: 80%; 
-    color: #330544;
+    color: $base-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -714,7 +719,7 @@ width: 80%;
 
 &_mentoringInterest_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     
@@ -726,7 +731,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .miHeader{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -750,7 +755,7 @@ align-items: center;
 
   .form_div_preferedAreaOfMentorship_section{
   width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -770,7 +775,7 @@ align-items: center;
   outline: none;
     border: none;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
   height: 2vw;
   font-size: 1.4vw;
 }  
@@ -780,7 +785,7 @@ align-items: center;
 
 .form_div_menteeGoalsPreference_section{
   width: 80%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -802,7 +807,7 @@ align-items: center;
     border: none;
     
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
   height: 2vw;
   font-size: 1.4vw;
 }  
@@ -816,7 +821,7 @@ align-items: center;
 
 &_reference1_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     display: flex;
@@ -832,7 +837,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .r1Header{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -856,7 +861,7 @@ align-items: center;
 
   .form_div_refereeName_section{
   width: 100%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   align-items: center;
   justify-content: space-between;     
@@ -871,7 +876,7 @@ align-items: center;
     border: none;
     background-color: white;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
   width:30%;
   height: 2vw;
   font-size: 1.4vw;
@@ -882,23 +887,23 @@ align-items: center;
 
 .form_div_refereeAddress_section{
 width: 100%;
-color: #330544;
+color: $base-color;
 
 
 }
 .form_div_addressLine1_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 
 .form_div_addressLine2_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 .form_div_cityAndState_section{
   width: 100%;
   .cityAndState_div{width: 100%;
-    color: #330544;display: flex;
+    color: $base-color;display: flex;
     align-items: center;
     justify-content: space-between;}
 }
@@ -906,17 +911,17 @@ color: #330544;
   width: 100%;
  
   .postalCodeAndCountry_div{width: 100%;
-  color: #330544;display: flex;
+  color: $base-color;display: flex;
   align-items: center;
   justify-content: space-between;  }
 }
 .form_div_email{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 .form_div_telephone{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 
 
@@ -928,7 +933,7 @@ color: #330544;
 
 &_reference2_div{
     width: 90%;
-    background-color: #33054438;
+    background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
     font-size: 1.4vw;
     display: flex;
@@ -944,7 +949,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8%;
 .r2Header{
-    background-color: #330544;
+    background-color: $base-color;
     border-radius:0.4vw;  
     padding-top: 2%;
     padding-bottom: 2%;
@@ -968,7 +973,7 @@ align-items: center;
 
   .form_div_refereeName_section{
   width: 100%; 
-  color: #330544;
+  color: $base-color;
   display: flex;
   align-items: center;
   justify-content: space-between;     
@@ -983,7 +988,7 @@ align-items: center;
     border: none;
     background-color: white;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
   width:30%;
   height: 2vw;
   font-size: 1.4vw;
@@ -994,23 +999,23 @@ align-items: center;
 
 .form_div_refereeAddress_section{
 width: 100%;
-color: #330544;
+color: $base-color;
 
 
 }
 .form_div_addressLine1_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 
 .form_div_addressLine2_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 .form_div_cityAndState_section{
   width: 100%;
   .cityAndState_div{width: 100%;
-    color: #330544;display: flex;
+    color: $base-color;display: flex;
     align-items: center;
     justify-content: space-between;}
 }
@@ -1018,29 +1023,29 @@ color: #330544;
   width: 100%;
  
   .postalCodeAndCountry_div{width: 100%;
-  color: #330544;display: flex;
+  color: $base-color;display: flex;
   align-items: center;
   justify-content: space-between;  }
 }
 .form_div_email_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 .form_div_telephone_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
 }
 
 .form_div_finalNote_section{
   width: 100%;
-  color: #330544;
+  color: $base-color;
   .finalNote_div{
 #finalNote{
     outline: none;
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: $base-color;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -1051,7 +1056,7 @@ color: #330544;
 
 .form_div_GDPRAgreement_section{
 width: 100%;
-  color: #330544;
+  color: $base-color;
   margin-bottom: 8%;
 } 
 }}
@@ -1067,7 +1072,7 @@ width: 100%;
   align-items: center;
 .submitBTN{
   cursor: grab;
-  background-color: #330544;
+  background-color: $base-color;
   border-radius:0.4vw;  
   padding-top: 2%;
   padding-bottom: 2%;
@@ -1081,8 +1086,8 @@ align-items: center;
 transition: 0.6s ease all;
 &:hover{
   background-color: white;
-  color: #330544;
-  border: 1px solid #330544;
+  color: $base-color;
+  border: 1px solid $base-color;
 }
 }
 }
@@ -1166,7 +1171,7 @@ transition: 0.6s ease all;
     
     &_personal_details_div{
         width: 90%;
-        background-color: #33054438;
+        background-color:$complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         
@@ -1178,7 +1183,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .pdHeader{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;   
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1205,7 +1210,7 @@ transition: 0.6s ease all;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        color: #330544;
+        color: $base-color;
         width: 80%;
         
       }
@@ -1215,7 +1220,7 @@ transition: 0.6s ease all;
           flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        color: #330544;
+        color: $base-color;
         width: 80%;
      .address_div{width: 100%;}
      .address_line1_div{width: 100%;}
@@ -1223,7 +1228,7 @@ transition: 0.6s ease all;
      .cityAndState_div{
         display: flex;
        flex-direction: column;
-        color: #330544;
+        color: $base-color;
         width: 100%;
         
      }
@@ -1231,26 +1236,26 @@ transition: 0.6s ease all;
       display: flex;
         align-items: center;
         justify-content: space-between;
-        color: #330544;
+        color: $base-color;
         width: 100%;
     }
     
     
     }
     .form_div_telephone_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
     }
     
 
     .form_div_email_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
     
     }  
     
     .form_div_dateOfBirth_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
      .dateOfBirth_div{
       width: 100%;
@@ -1259,7 +1264,7 @@ transition: 0.6s ease all;
     }  
     
     .form_div_gender_section{
-      color: #330544;
+      color: $base-color;
        width: 80%;
       .gender_div{
        
@@ -1269,7 +1274,7 @@ transition: 0.6s ease all;
         outline: none;
       border: none;
     background-color: white;
-    border-radius:0.4vw;color: #330544;
+    border-radius:0.4vw;color: $base-color;
     
     
     }
@@ -1277,7 +1282,7 @@ transition: 0.6s ease all;
     }  
     
     .form_div_menteeAgeGroup_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
       margin-bottom: 8%;
      .menteeAgeGroup_div{
@@ -1292,7 +1297,7 @@ transition: 0.6s ease all;
     
     .form_div_menteeGenderPreference_section{
       margin-top: 20px;
-      color: #330544;
+      color: $base-color;
       width: 80%;
       .menteeGenderPreference_div{
     .menteeGenderPreference{width: 100%;
@@ -1302,7 +1307,7 @@ transition: 0.6s ease all;
       border: none;
     background-color: white;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
     
     }
       }
@@ -1316,7 +1321,7 @@ transition: 0.6s ease all;
     
     &_safe_guarding_div{
         width: 90%;
-        background-color: #33054438;
+        background-color: $complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         
@@ -1328,7 +1333,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .sgHeader{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1352,7 +1357,7 @@ transition: 0.6s ease all;
     
       .form_div_criminal_conviction_section{
       width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1368,7 +1373,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius:0.4vw;
-        color: #330544;
+        color: $base-color;
       width:30%;
       font-size: 2.4vw;
     }  
@@ -1379,7 +1384,7 @@ transition: 0.6s ease all;
     .form_div_DBSCertification_section{
     
       width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
     .form_div_DBSCertification_div{
@@ -1390,7 +1395,7 @@ transition: 0.6s ease all;
       outline: none;
         border: none;
         background-color: white;
-        border-radius:0.4vw; color: #330544;
+        border-radius:0.4vw; color: $base-color;
       width:30%;
       font-size: 2.4vw;
     }  
@@ -1399,7 +1404,7 @@ transition: 0.6s ease all;
     }
     .form_div_DBSUpdatedNumber_section{
      width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1412,7 +1417,7 @@ transition: 0.6s ease all;
       outline: none;
         border: none;
         background-color: white;
-        border-radius:0.4vw; color: #330544;
+        border-radius:0.4vw; color: $base-color;
      
     }  
       
@@ -1425,7 +1430,7 @@ transition: 0.6s ease all;
     
     &_work_experience_div{
         width: 90%;
-        background-color: #33054438;
+        background-color: $complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         
@@ -1437,7 +1442,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 6%;
     .weHeader{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1464,7 +1469,7 @@ transition: 0.6s ease all;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        color: #330544;
+        color: $base-color;
         width: 80%;
         .form_div_industrySector_div{
           .industrySector{
@@ -1472,7 +1477,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius: 0.4vw;
-        color: #330544;
+        color: $base-color;
         font-size: 2.4vw;
           }
         }
@@ -1484,13 +1489,13 @@ transition: 0.6s ease all;
           flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        color: #330544;
+        color: $base-color;
         width: 80%;
     
     
     }
     .form_div_currentEmployersName_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
       .currentEmployersName_div{
         .currentEmployersName{width: 100%;}
@@ -1498,7 +1503,7 @@ transition: 0.6s ease all;
     }
     
     .form_div_currentEmployersAddress_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
       .currentEmployersAddress_div{
         .currentEmployersAddress{width: 100%;}
@@ -1506,7 +1511,7 @@ transition: 0.6s ease all;
     }  
     
     .form_div_addressLine1_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
      .addressLine1_div{
         .addressLine1{width: 100%;}
@@ -1514,7 +1519,7 @@ transition: 0.6s ease all;
     }  
     
     .form_div_addressLine2_section{
-      color: #330544;
+      color: $base-color;
       width: 80%;
       .addressLine2_div{
         .addressLine2{width: 100%;
@@ -1522,7 +1527,7 @@ transition: 0.6s ease all;
       border: none;
     background-color: white;
     border-radius:0.4vw;
-    color: #330544;
+    color: $base-color;
     
     
     }
@@ -1533,10 +1538,10 @@ transition: 0.6s ease all;
     display: flex;
     flex-direction: column;
     width: 80%;
-    color: #330544;
+    color: $base-color;
      .cityAndState_div{
     
-        color: #330544;
+        color: $base-color;
         width: 100%;
      
      }
@@ -1545,12 +1550,12 @@ transition: 0.6s ease all;
       display: flex;
     justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: $base-color;
       .postalCodeAndCountry_div{
       display: flex;
         align-items: center;
         justify-content: space-between;
-        color: #330544;
+        color:  $base-color;
         width: 100%;
     
     }
@@ -1560,7 +1565,7 @@ transition: 0.6s ease all;
         display: flex;
     justify-content: space-between;
     width: 80%;
-    color: #330544;
+    color: $base-color;
       .startDateWithEmployer_div{
         .startDateWithEmployer{
     font-size: 1.3vw;
@@ -1577,7 +1582,7 @@ transition: 0.6s ease all;
     
     &_volunteering_div{
         width: 90%;
-        background-color: #33054438;
+        background-color: $complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         
@@ -1589,7 +1594,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .vHeader{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1613,7 +1618,7 @@ transition: 0.6s ease all;
     
       .form_div_volunteeringExperience_section{
       width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1629,7 +1634,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius:0.4vw;
-        color: #330544;
+        color: $base-color;
       height: 15vw;
       resize: none;
       overflow: auto;
@@ -1647,7 +1652,7 @@ transition: 0.6s ease all;
     }
     &_mentoring_div{
         width: 90%;
-        background-color: #33054438;
+        background-color: $complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         
@@ -1659,7 +1664,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .mHeader{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1683,7 +1688,7 @@ transition: 0.6s ease all;
     
       .form_div_mentorExpectation_section{
       width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1699,7 +1704,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius: 0.4vw;
-        color: #330544;
+        color: $base-color;
         height: 15vw;
         resize: none;
         overflow: auto;
@@ -1711,7 +1716,7 @@ transition: 0.6s ease all;
       }
       .form_div_mentorAvailability_section{
         width: 80%;
-        color: #330544;
+        color: $base-color;
         margin-bottom: 8%;
     .mentorAvailability_div{
       display: flex;
@@ -1722,7 +1727,7 @@ transition: 0.6s ease all;
     }
       .form_div_skills_hobbies_specialInterest_section{
     width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1735,7 +1740,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius: 0.4vw;
-        color: #330544;
+        color: $base-color;
         height: 15vw;
         resize: none;
         overflow: auto;
@@ -1747,7 +1752,7 @@ transition: 0.6s ease all;
       }
       .form_div_specialNeeds_section{
         width: 80%; 
-        color: #330544;
+        color: $base-color;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1760,7 +1765,7 @@ transition: 0.6s ease all;
           border: none;
           background-color: white;
           border-radius: 0.4vw;
-          color: #330544;
+          color: $base-color;
           height: 15vw;
           resize: none;
           overflow: auto;
@@ -1778,7 +1783,7 @@ transition: 0.6s ease all;
     
     &_mentoringInterest_div{
         width: 90%;
-        background-color: #33054438;
+        background-color: $complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         
@@ -1790,7 +1795,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .miHeader{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1814,7 +1819,7 @@ transition: 0.6s ease all;
     
       .form_div_preferedAreaOfMentorship_section{
       width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1834,7 +1839,7 @@ transition: 0.6s ease all;
       outline: none;
         border: none;
         border-radius:0.4vw;
-        color: #330544;
+        color: $base-color;
       height: 2vw;
       font-size: 3.4vw;
     }  
@@ -1844,7 +1849,7 @@ transition: 0.6s ease all;
     
     .form_div_menteeGoalsPreference_section{
       width: 80%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1866,7 +1871,7 @@ transition: 0.6s ease all;
         border: none;
         
         border-radius:0.4vw;
-        color: #330544;
+        color: $base-color;
       height: 2vw;
       font-size: 1.4vw;
     }  
@@ -1880,7 +1885,7 @@ transition: 0.6s ease all;
     
     &_reference1_div{
         width: 90%;
-        background-color: #33054438;
+        background-color: $complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         display: flex;
@@ -1896,7 +1901,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .r1Header{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1920,7 +1925,7 @@ transition: 0.6s ease all;
     
       .form_div_refereeName_section{
       width: 100%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       align-items: center;
       justify-content: space-between;     
@@ -1935,7 +1940,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius:0.4vw;
-        color: #330544;
+        color: $base-color;
       width:30%;
       height: 2vw;
       font-size: 1.4vw;
@@ -1946,40 +1951,40 @@ transition: 0.6s ease all;
     
     .form_div_refereeAddress_section{
     width: 100%;
-    color: #330544;
+    color: $base-color;
     
     
     }
     .form_div_addressLine1_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     
     .form_div_addressLine2_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     .form_div_cityAndState_section{
       width: 100%;
       .cityAndState_div{width: 100%;
-        color: #330544;display: flex;
+        color: $base-color;display: flex;
      flex-direction: column;}
     }
     .form_div_postalCodeAndCountry_section{
       width: 100%;
      
       .postalCodeAndCountry_div{width: 100%;
-      color: #330544;display: flex;
+      color: $base-color;display: flex;
       align-items: center;
       justify-content: space-between;  }
     }
     .form_div_email{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     .form_div_telephone{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     
     
@@ -1991,7 +1996,7 @@ transition: 0.6s ease all;
     
     &_reference2_div{
         width: 90%;
-        background-color: #33054438;
+        background-color:$complimentary-color2;
         border-radius:0.4vw;  margin-bottom: 5%;
         font-size: 4vw;
         display: flex;
@@ -2007,7 +2012,7 @@ transition: 0.6s ease all;
     align-items: center;
     margin-bottom: 8%;
     .r2Header{
-        background-color: #330544;
+        background-color: $base-color;
         border-radius:0.4vw;  
         padding-top: 2%;
         padding-bottom: 2%;
@@ -2031,7 +2036,7 @@ transition: 0.6s ease all;
     
       .form_div_refereeName_section{
       width: 100%; 
-      color: #330544;
+      color: $base-color;
       display: flex;
       align-items: center;
       justify-content: space-between;     
@@ -2046,7 +2051,7 @@ transition: 0.6s ease all;
         border: none;
         background-color: white;
         border-radius:0.4vw;
-        color: #330544;
+        color: $base-color;
       width:30%;
       height: 2vw;
       font-size: 1.4vw;
@@ -2057,52 +2062,52 @@ transition: 0.6s ease all;
     
     .form_div_refereeAddress_section{
     width: 100%;
-    color: #330544;
+    color: $base-color;
     
     
     }
     .form_div_addressLine1_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     
     .form_div_addressLine2_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     .form_div_cityAndState_section{
       width: 100%;
       .cityAndState_div{width: 100%;
-        color: #330544;display: flex;
+        color: $base-color;display: flex;
         flex-direction: column;}
     }
     .form_div_postalCodeAndCountry_section{
       width: 100%;
      
       .postalCodeAndCountry_div{width: 100%;
-      color: #330544;display: flex;
+      color: $base-color;display: flex;
       align-items: center;
       justify-content: space-between;  }
     }
     .form_div_email_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     .form_div_telephone_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
     }
     
     .form_div_finalNote_section{
       width: 100%;
-      color: #330544;
+      color: $base-color;
       .finalNote_div{
     #finalNote{
         outline: none;
         border: none;
         background-color: white;
         border-radius: 0.4vw;
-        color: #330544;
+        color: $base-color;
         height: 15vw;
         resize: none;
         overflow: auto;
@@ -2113,7 +2118,7 @@ transition: 0.6s ease all;
     
     .form_div_GDPRAgreement_section{
     width: 100%;
-      color: #330544;
+      color: $base-color;
       margin-bottom: 8%;
     } 
     }}
@@ -2130,7 +2135,7 @@ transition: 0.6s ease all;
       margin-bottom: 10%;
     .submitBTN{
       cursor: grab;
-      background-color: #330544;
+      background-color: $base-color;
       border-radius:0.4vw;  
       padding-top: 2%;
       padding-bottom: 2%;
@@ -2144,8 +2149,8 @@ transition: 0.6s ease all;
     transition: 0.6s ease all;
     &:hover{
       background-color: white;
-      color: #330544;
-      border: 1px solid #330544;
+      color: $base-color;
+      border: 1px solid $base-color;
     }
     }
     }
