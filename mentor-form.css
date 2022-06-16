@@ -36,8 +36,9 @@
   color: #033347;
   width: 15vw;
   outline: none;
-  height: 2vw;
+  height: 3vw;
   border-radius: 0.4vw;
+  font-size: 1.2vw;
 }
 
 #input_div_style2 {
@@ -81,8 +82,9 @@
   border: none;
   color: #033347;
   outline: none;
-  height: 2vw;
+  height: 3vw;
   border-radius: 0.4vw;
+  font-size: 1.2vw;
 }
 
 @media only screen and (min-width: 600px) and (orientation: landscape) {
@@ -105,7 +107,7 @@
   body .main header {
     width: 50%;
     height: 100vh;
-    background-image: url(images/bkg.png);
+    background-image: url(images/bkg2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +148,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_header {
     width: 100%;
@@ -332,7 +334,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_header {
     width: 100%;
@@ -482,7 +484,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_header {
     width: 100%;
@@ -667,7 +669,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   body .main .formSection .mentor_profile_form_volunteering_div_header {
     width: 100%;
@@ -758,7 +760,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_header {
     width: 100%;
@@ -926,7 +928,7 @@
     border: none;
     background-color: white;
     border-radius: 0.4vw;
-    color: #330544;
+    color: #033347;
     height: 15vw;
     resize: none;
     overflow: auto;
@@ -938,7 +940,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_header {
     width: 100%;
@@ -1083,7 +1085,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1233,7 +1235,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1403,7 +1405,7 @@
     width: 90%;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1518,7 +1520,7 @@
   }
   body .main .formSection .mentor_profile_form span {
     font-size: 5vw;
-    color: #330544;
+    color: #033347;
     margin-top: 4%;
     margin-bottom: 4%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

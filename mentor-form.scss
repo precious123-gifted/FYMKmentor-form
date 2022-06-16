@@ -38,8 +38,9 @@ $complimentary-color2 :#8dcde675;
         color: $base-color;
         width: 15vw;
       outline: none;
-      height: 2vw;  
-      border-radius:0.4vw;            
+      height: 3vw;  
+      border-radius:0.4vw;
+      font-size: 1.2vw;          
     }
 }
 #input_div_style2{
@@ -66,8 +67,9 @@ $complimentary-color2 :#8dcde675;
         border: none;
         color: $base-color;
       outline: none;
-      height: 2vw;  
-      border-radius:0.4vw;            
+      height: 3vw;  
+      border-radius:0.4vw;
+      font-size: 1.2vw;            
     }
 }
 
@@ -87,7 +89,7 @@ user-select: none;
     header{
         width: 50%;
         height: 100vh;
-        background-image: url(images/bkg.png);
+        background-image: url(images/bkg2.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -112,7 +114,7 @@ span{font-size: 3vw;color: $base-color;margin-top: 4%;margin-bottom: 4%;font-fam
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     
    
 &_header{
@@ -258,7 +260,7 @@ color: $base-color;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     
    
 &_header{
@@ -366,7 +368,7 @@ align-items: center;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     
    
 &_header{
@@ -520,7 +522,7 @@ font-size: 1.3vw;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     
    
 &_header{
@@ -577,7 +579,6 @@ align-items: center;
   padding: 1vw 1vw;
   font-size: 1.4vw;
 
-
 }  
   
 }
@@ -590,7 +591,7 @@ align-items: center;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     
    
 &_header{
@@ -701,7 +702,7 @@ width: 80%;
       border: none;
       background-color: white;
       border-radius: 0.4vw;
-      color: #330544;
+      color: $base-color;
       height: 15vw;
       resize: none;
       overflow: auto;
@@ -721,7 +722,7 @@ width: 80%;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     
    
 &_header{
@@ -823,7 +824,7 @@ align-items: center;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -935,7 +936,7 @@ color: $base-color;
     width: 90%;
     background-color: $complimentary-color2;
     border-radius:0.4vw;  margin-bottom: 5%;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1066,7 +1067,7 @@ width: 100%;
   width: 90%;
   
   border-radius:0.4vw;  margin-bottom: 5%;
-  font-size: 1.4vw;
+  font-size: 1.1vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1167,7 +1168,7 @@ transition: 0.6s ease all;
         justify-content: space-evenly;
             align-items: center;
     
-    span{font-size: 5vw;color: #330544;margin-top: 4%;margin-bottom: 4%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span{font-size: 5vw;color: $base-color;margin-top: 4%;margin-bottom: 4%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
     
     &_personal_details_div{
         width: 90%;
