@@ -1470,6 +1470,7 @@
     height: 6vw;
   }
   body {
+    position: absolute;
     overflow: hidden;
     -webkit-user-select: none;
        -moz-user-select: none;
