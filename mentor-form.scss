@@ -220,6 +220,25 @@ border-radius:0.4vw;color: $base-color;
   }
 }  
 
+.form_div_ethnicity_section{
+  color: $base-color;
+   width: 80%;
+  .ethnicity_div{
+   
+    .ethnic-group{
+       width: 70%;
+      font-size: 1.3vw;
+    outline: none;
+  border: none;
+background-color: white;
+border-radius:0.4vw;color: $base-color;
+
+
+}
+  }
+}  
+
+
 .form_div_menteeAgeGroup_section{
   color: $base-color;
   width: 80%;
@@ -1281,6 +1300,25 @@ transition: 0.6s ease all;
     }
       }
     }  
+
+.form_div_ethnicity_section{
+  color: $base-color;
+   width: 80%;
+  .ethnicity_div{
+   
+    .ethnic-group{
+       width: 70%;
+      font-size: 2.4vw;
+    outline: none;
+  border: none;
+background-color: white;
+border-radius:0.4vw;color: $base-color;
+
+
+}
+  }
+}  
+
     
     .form_div_menteeAgeGroup_section{
       color: $base-color;

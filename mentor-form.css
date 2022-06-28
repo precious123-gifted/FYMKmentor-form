@@ -294,6 +294,19 @@
     border-radius: 0.4vw;
     color: #033347;
   }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_ethnicity_section {
+    color: #033347;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_ethnicity_section .ethnicity_div .ethnic-group {
+    width: 70%;
+    font-size: 1.3vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #033347;
+  }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
     color: #033347;
     width: 80%;
@@ -1530,7 +1543,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   body .main .formSection .mentor_profile_form_personal_details_div_header {
     width: 100%;
@@ -1674,6 +1687,19 @@
     border-radius: 0.4vw;
     color: #033347;
   }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_ethnicity_section {
+    color: #033347;
+    width: 80%;
+  }
+  body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_ethnicity_section .ethnicity_div .ethnic-group {
+    width: 70%;
+    font-size: 2.4vw;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 0.4vw;
+    color: #033347;
+  }
   body .main .formSection .mentor_profile_form_personal_details_div_form_div .form_div_menteeAgeGroup_section {
     color: #033347;
     width: 80%;
@@ -1716,7 +1742,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   body .main .formSection .mentor_profile_form_safe_guarding_div_header {
     width: 100%;
@@ -1866,7 +1892,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   body .main .formSection .mentor_profile_form_work_experience_div_header {
     width: 100%;
@@ -2043,7 +2069,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   body .main .formSection .mentor_profile_form_volunteering_div_header {
     width: 100%;
@@ -2134,7 +2160,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   body .main .formSection .mentor_profile_form_mentoring_div_header {
     width: 100%;
@@ -2314,7 +2340,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   body .main .formSection .mentor_profile_form_mentoringInterest_div_header {
     width: 100%;
@@ -2459,7 +2485,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2607,7 +2633,7 @@
     background-color: #8dcde675;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2775,7 +2801,7 @@
     width: 90%;
     border-radius: 0.4vw;
     margin-bottom: 5%;
-    font-size: 4vw;
+    font-size: 3vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
